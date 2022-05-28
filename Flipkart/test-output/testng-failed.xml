@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite-Flipkart]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxBrowser(failed)">
+    <parameter name="browser" value="FirefoxBrowser"/>
+    <classes>
+      <class name="test.Flipkart.VerifyRealmeMobiles">
+        <methods>
+          <include name="logoutFlipkart"/>
+          <include name="selectRealmeC11"/>
+          <include name="launchBrowser"/>
+          <include name="objectOfPOMClass"/>
+          <include name="quitBrowser"/>
+          <include name="selectRealmeNarzo50i"/>
+          <include name="nullAllObject"/>
+          <include name="loginToFlipkartAndSelectElectronics"/>
+        </methods>
+      </class> <!-- test.Flipkart.VerifyRealmeMobiles -->
+    </classes>
+  </test> <!-- FirefoxBrowser(failed) -->
+</suite> <!-- Failed suite [Suite-Flipkart] -->
